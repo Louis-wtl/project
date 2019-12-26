@@ -1,0 +1,563 @@
+.nav{
+	width: 100%;
+	height: 90px;
+	background-color: #eeeeee;
+}
+.nav1{
+	width: 1200px;
+	height: 90px;
+/*	border: 1px solid;*/
+	margin: 0 auto;
+}
+.tu1{
+	display: inline-block;
+	float: left;
+	margin-top: 25px;
+    margin-right: 30px;
+}
+.nav1 li{
+	width: 80px;
+	height: 90px;
+	float: left;
+	line-height: 90px;
+}
+
+.nav1 a{
+	display: block;
+	color: black;
+}
+.nav1 a:hover{
+	color: blue;
+}
+.sou{
+	/*width: 377px;*/
+	height: 40px;
+	float: left;
+	padding-top: 26px;
+}
+.sou input{
+	width: 323px;
+	height: 36px;
+	float: left;
+	padding-left:20px;
+}
+.tu2{
+	display: inline-block;
+	float: left;
+}
+.ren{
+	float: right;
+	padding-top: 26px;
+	
+}
+.ren img{
+	vertical-align: middle;
+}
+
+.body{
+	width: 100%;
+	height: 378px;
+	background-color: #1c036c
+}
+.body1{
+	width: 1200px;
+	height: 378px;
+	background-image: url(../img/103.jpg);
+	margin: 0 auto;
+}
+.left{
+	width: 167px;
+	height: 378px;
+	background-color: #14024b;
+	float: left;
+}
+.left a{
+	display: block;
+	color: #fff;
+	padding-left: 10px;
+	font-size: 14px;
+	line-height: 40px;
+}
+.left li{
+	width: 100%;
+	height: 40px;
+}
+.left li:hover{
+	background-color: blue;
+}
+.left a span{
+	display: inline-block;
+	float: right;
+	margin-right: 10px;
+}
+
+.right{
+	height: 230px;
+	background-color: #fff;
+/*	border: 1px solid red;*/
+	float: right;
+	margin-top: 45px;
+}
+.right li{
+	height: 44px;
+	margin: 0 auto;
+}
+.biao1{
+	width: 205px;
+	height: 40px;
+    background-color: #9bceea;
+}
+.biao1 h3{
+	color: #fff;
+	display: block;
+	padding-left: 53px;
+	padding-top: 7px;
+}
+.biao2{
+	width: 183px;
+	background-color: #fff;
+	border-bottom: 1px solid black;
+}
+.biao2 p{
+	font-size: 13px;
+	display: block;
+	padding-top: 6px;
+}
+.biao2 span{
+	font-size: 11px;
+	color: #a5a5a5
+}
+.right input{
+	display: block;
+	width: 183px;
+	height: 35px;
+	margin: 5px auto;
+	background-color: #fff;
+	color: blue;
+	border: 1px solid blue;
+}
+.foot{
+	width: 100%;
+	height: 98px;
+	background-color: #eeeeee;
+	overflow: hidden;
+
+}
+.footer{
+	width: 1200px;
+	height: 56px;
+	margin: 0 auto;
+	background-color: #fff;
+	margin-top: 20px;
+	box-shadow: 1px 1px 3px black;
+}
+.footer li{
+	float: left;
+}
+.right1{
+	float: right;
+	margin-right: 10px;
+}
+.footer a{
+	display: inline-block;
+	margin-left: 30px;
+	color: black;
+	line-height: 56px;
+	font-size: 12px;
+}
+.footer a:hover{
+	color: blue;
+}
+.right1 a{
+	color: blue;
+}
+
+                                        /*精品推荐*/
+.jingt{
+	overflow: hidden;
+}
+.jingt .nav{
+	height: 40px;
+}
+.jingt .nav a{
+	font-size: 12px;
+	color: #a5a5a5;
+	margin-left: -65px;
+}
+.jingt li{
+	display: block;
+	height: 270px;
+	width: 233px;
+	background-color: #fff;
+	position: relative;
+}
+.jingt .hot{
+	position: absolute;
+	top: 10px;
+	right: -4px;
+}
+.jingt .box_zi{
+	height: 114px;
+	overflow: hidden;
+}
+.box_zi p{
+	display: block;
+	width: 184px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.box_zi span{
+	color: #a5a5a5;
+	font-size: 14px;
+}
+.box_zi .gaoji{
+	color: red;
+}
+.jingt li{
+	float: left;
+	margin: 3px;
+}
+
+                                      /*编程入门*/
+.bianj{
+	height: 434px;
+}
+.bianj .nav{
+	height: 40px;
+	margin-top: 30px;
+	overflow: hidden;
+}
+.zhong{
+	width: 450px;
+    margin-left: 281px;
+}
+.bianj .nav a{
+	display: inline-block;
+	float: left;
+	margin-left: 77px;
+	color: #a5a5a5;
+	font-size: 14px;
+}
+.bianj span{
+	font-size: 12px;
+}
+.bianj .box{
+	width: 1200px;
+	height: 393px;
+	margin-bottom: 20px;
+}
+.bianj_box .left3{
+	width: 230px;
+	height: 292px;
+	margin-right: 10px;
+}
+.bianj .right3{
+	width: 958px;
+	height: 396px;
+}
+.bianj .right3 li{
+	width: 228px;
+	height: 268px;
+	background-color: #FFFFFF;
+	margin-top: 15px;
+    float: left;
+    margin-right: 11px;
+}
+                                             /*机器学习工程*/
+.machine{
+	overflow: hidden;
+}                                            
+.machine .nav{
+	height: 40px;
+	margin-top: 30px;
+	overflow: hidden;
+}
+.zhong{
+	width: 450px;
+    margin-left: 281px;
+}
+.machine .nav a{
+	display: inline-block;
+	float: left;
+	margin-left: 77px;
+	color: #a5a5a5;
+	font-size: 14px;
+}
+.machine span{
+	font-size: 12px;
+}
+
+.machine_main li{
+	display: block;
+	height: 270px;
+	width: 233px;
+	background-color: #fff;
+}
+.machine_main .box_zi{
+	height: 114px;
+	overflow: hidden;
+}
+.box_zi p{
+	display: block;
+	width: 184px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.box_zi span{
+	color: #a5a5a5;
+	font-size: 14px;
+}
+.box_zi .gaoji{
+	color: red;
+}
+.machine_main li{
+	float: left;
+	margin: 3px;
+}
+
+                                /*前端开发工程师*/
+
+.fore-end{
+	overflow: hidden;
+}                                            
+.fore-end .nav{
+	height: 40px;
+	margin-top: 30px;
+	overflow: hidden;
+}
+.zhong{
+	width: 450px;
+    margin-left: 281px;
+}
+.fore-end .nav a{
+	display: inline-block;
+	float: left;
+	margin-left: 77px;
+	color: #a5a5a5;
+	font-size: 14px;
+}
+.fore-end span{
+	font-size: 12px;
+}
+
+.fore-end_main li{
+	display: block;
+	height: 270px;
+	width: 233px;
+	background-color: #fff;
+}
+.fore-end_main .box_zi{
+	height: 114px;
+	overflow: hidden;
+}
+.box_zi p{
+	display: block;
+	width: 184px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.box_zi span{
+	color: #a5a5a5;
+	font-size: 14px;
+}
+.box_zi .gaoji{
+	color: red;
+}
+.fore-end_main li{
+	float: left;
+	margin: 3px;
+}
+/*牛人推荐*/
+.recommend{
+	height: 820px;
+}
+.recommend li{
+	width: 229px;
+	height: 319px;
+	position: relative;
+	float: left;
+	margin: 5px;
+	
+}
+.recommend h4{
+	height: 70px;
+	line-height: 70px;
+}
+.recommend_main_bg{
+	width: 229px;
+	height: 122px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	bottom: 0px;
+/*	display: none;*/
+}
+.recommend_main_zi{
+	width: 175px;
+	height: 86px;
+	margin: auto;
+	color: #fff;
+	margin-top: 20px;
+	
+}
+.recommend_main_zi h4{
+	display: inline-block;
+	width: 66px;
+	height: 21px;
+	line-height: 21px;
+	font-size: 17px;
+}
+.recommend_main_zi span{
+	font-size: 12px;
+}
+.recommend_main_zi p{
+	font-size: 12px;
+	/*p标签多行显示后隐藏
+	   -webkit-line-clamp: 3;
+	   表示显示三行后隐藏
+	 */
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-height: 20px;
+
+}
+/*大的隐影盒子*/
+.recommend_main_bg1{
+	width: 229px;
+	height: 319px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	bottom: 0px;
+	display: none;
+}
+.recommend_main_zi1{
+	width: 175px;
+	height: 86px;
+	margin: 111px auto;
+	color: #fff;
+
+	
+}
+.recommend_main_zi1 h4{
+	display: inline-block;
+	width: 66px;
+	height: 21px;
+	line-height: 21px;
+	font-size: 17px;
+	margin-top: 20px;
+
+}
+.recommend_main_zi1 .boke{
+	display: block;
+	
+}
+.recommend_main_zi1 span{
+	font-size: 12px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+.recommend_main_zi1 p{
+	font-size: 12px;
+	line-height: 15px;
+
+
+}
+
+.recommend_main li:hover .recommend_main_bg1 {
+	  display: block;
+}
+.recommend_main li:hover .recommend_main_bg {
+	  display: none;
+} 
+.recommend_main_title{
+	width: 86px;
+	height: 20px;
+	border: 1px solid red;
+	font-size: 12px;
+	color: red;
+	position: absolute;
+	top: 10px;
+	right: -5px;
+}
+.recommend_main .graduation{
+	width: 471px;
+}
+/*低端部分*/
+.boots{
+     width: 100%;
+     height: 268px;
+     background-color: #fff;
+}
+.boot .copyright{
+	width: 434px;
+	font-size: 13px;
+	margin-top: 33px;
+	margin-right: 80px;
+}
+.boot .copyright p{
+	margin-top: 25px;
+}
+.boot .copyright input{
+	width: 118px;
+	height: 35px;
+	color: #00a4ff;
+	border: 1px solid #00a4ff;
+	background-color: #fff;
+	margin-top: 17px;
+}
+.boot dt{
+	font-size: 16px;
+	color: #333333;
+	font-weight: bold;
+	margin-top: 33px;
+	padding-bottom: 20px;
+}
+.boot dd{
+	font-size: 12px;
+}
+.boot .about{
+	margin-right:146px ;
+}
+.boot .guide{
+	margin-right: 121px;
+}
+
+.youciD{
+	position: fixed;
+	right: 0;
+	top: 250px;
+}
+.youciD li{
+	width: 72px;
+	height: 79px;
+	border: 1px solid;
+	text-align: center;
+}
+.youciD .youci1{
+	width: 31px;
+	height: 31px;
+/*	border: 1px solid;*/
+	margin: 10px auto;
+	background-image: url(../img/01.png);
+	background-repeat: no-repeat;
+}
+.tu6{
+	background-position: 3px 5px;
+}
+.tu7{
+	background-position: -27px 5px;
+}
+.tu3{
+	background-position: -58px 5px;
+}
+.tu4{
+	background-position: -90px 5px;
+}
+.tu5{
+	background-position: -124px -40px;
+}
+.long{
+	background-color: #f67524;
+}

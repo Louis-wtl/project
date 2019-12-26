@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	background-color:#eeeeee;
+}
+a{
+	text-decoration:none; 
+}
+.bx{
+	width: 1200px;
+	margin: 0 auto;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
